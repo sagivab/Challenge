@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+input {
+    width: 80px;
+}
+
+.button {
+    margin-top: 5px;
+    width: 300px;
+}
+
+#headline {
+    text-align: center;
+}
+
+#welcomeTitle {
+    color: grey;
+    font-size: 500px;
+}
+
+#divRequest {
+    margin-left: 5px;
+}
+
+#time {
+    margin-top: 10px;
+}
+
+#multiBtn {
+    margin: 5px 45px; 
+}

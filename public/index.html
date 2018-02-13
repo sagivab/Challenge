@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Sagiv Abdush web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row" id="headline">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12" id="welcomeTitle">
+                    <h1>
+                        <b>Welcome to Sagiv Abdush web</b>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12" id="divRequest">
+                    <label>
+                        <b>Number of request to the server:</b>
+                        <span id='serverRequest'></span>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Get Time Section</div>
+                        <div class="panel-body">
+                            <button class="btn btn-primary" id="getTimeBtn">Get Time</button>
+                            <div id="time"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <body >
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+                    <h3> Multiply numbers section</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+                    <input type="number" id="num1"/> *
+                    <input type="number" id="num2"/> =
+                    <div id="multiplyResult" />
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+                    <button class="btn btn-success" id="multiBtn">Multiply</button>
+                </div>
+            </div>
+        </body>
+    </div>
+
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
